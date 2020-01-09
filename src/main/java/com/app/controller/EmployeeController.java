@@ -25,9 +25,9 @@ public class EmployeeController {
 		//adding object data
 
 		Employee e=new Employee();
-		e.setEid(101);
-		e.setEname("satish");
-		e.setEsal(12300);
+		e.setId(101);
+		e.setEName("satish");
+		e.setESal(12300);
 		m.addObject("emp", e);
 
 		//adding array data
