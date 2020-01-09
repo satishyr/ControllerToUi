@@ -3,7 +3,7 @@ package com.app.model;
 public class Employee {
 
 	private int eid;
-	private String ename;
+	private String eName;
 	private double esal;
 	public Employee() {
 		super();
@@ -14,11 +14,11 @@ public class Employee {
 	public void setEid(int eid) {
 		this.eid = eid;
 	}
-	public String getEname() {
-		return ename;
+	public String getEName() {
+		return eName;
 	}
-	public void setEname(String ename) {
-		this.ename = ename;
+	public void setEName(String eName) {
+		this.eName = eName;
 	}
 	public double getEsal() {
 		return esal;
@@ -28,12 +28,12 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + "]";
+		return "Employee [eid=" + eid + ", eName=" + eName + ", esal=" + esal + "]";
 	}
-	public Employee(int eid, String ename, double esal) {
+	public Employee(int eid, String eName, double esal) {
 		super();
 		this.eid = eid;
-		this.ename = ename;
+		this.eName = eName;
 		this.esal = esal;
 	}
 
