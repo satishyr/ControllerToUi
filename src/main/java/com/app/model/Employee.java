@@ -2,17 +2,17 @@ package com.app.model;
 
 public class Employee {
 
-	private int eid;
+	private int id;
 	private String eName;
 	private double eSal;
 	public Employee() {
 		super();
 	}
-	public int getEid() {
-		return eid;
+	public int getId() {
+		return id;
 	}
-	public void setEid(int eid) {
-		this.eid = eid;
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getEName() {
 		return eName;
@@ -28,11 +28,11 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [eid=" + eid + ", eName=" + eName + ", eSal=" + eSal + "]";
+		return "Employee [id=" + id + ", eName=" + eName + ", eSal=" + eSal + "]";
 	}
-	public Employee(int eid, String eName, double eSal) {
+	public Employee(int id, String eName, double eSal) {
 		super();
-		this.eid = eid;
+		this.id = id;
 		this.eName = eName;
 		this.eSal = eSal;
 	}
