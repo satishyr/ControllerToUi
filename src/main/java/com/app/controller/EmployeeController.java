@@ -15,7 +15,7 @@ import com.app.model.Employee;
 @Controller
 public class EmployeeController {
 
-	@RequestMapping("/show")
+	@RequestMapping("/how")
 	public ModelAndView showMsg()
 	{
 		ModelAndView m=new ModelAndView();
